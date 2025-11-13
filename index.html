@@ -9,7 +9,9 @@
     </head>
     <body>
         <h1>Customer Feedback Survey</h1>
+
         <p>Please take a moment to complete the survey below</p>
+
         <form action="#" method="post">
             <!-- Question 1: Name -->
             <label for="name">Your Name:</label>
@@ -22,6 +24,7 @@
             <!-- Question 3: Favorite Color -->
             <label for="Color">Favorite Color:</label>
             <select id="Color" name="Color">
+                <option value="" disabled selected></option>
                 <option value="white">White</option>
                 <option value="red">Red</option>
                 <option value="blue">Blue</option>
@@ -40,5 +43,16 @@
             <!-- Submit Button -->
             <input type="submit" value="Submit">
         </form>
+
+        <!-- Survey Instructions-->
+        <h3>Instructions:</h3>
+
+        <ul>
+            <li>Fill in your name and age in the first two fields.</li>
+            <li>Select your favorite color from the dropdown list.</li>
+            <li>Provide your feedback in the text box below.</li>
+            <li>Click the "Submit" button to submit your responses.</li>
+        </ul>
+
     </body>
 </hmtl>
